@@ -1,6 +1,6 @@
 Source: https://github.com/ztech-company/ztech-data-code-challenge/blob/main/Data%20Engineer/Data%20Engineer%20Test.md 
 
-Country: Brazil :br:
+Country: Brazil
 
 # Data Engineering Python Test
 
