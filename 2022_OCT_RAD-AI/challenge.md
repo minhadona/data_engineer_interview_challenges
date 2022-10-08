@@ -1,7 +1,7 @@
 Source: https://github.com/radaisystems/de_challenge         
 Country: [probably US](https://www.radai.com/about)
 
-## All original files are inside /de_challenge
+## All original files are inside /files/ folder
 ___________________________
 
 # Rad AI Data Engineer challenge
