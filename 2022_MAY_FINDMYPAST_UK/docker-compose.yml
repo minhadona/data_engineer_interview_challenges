@@ -1,0 +1,59 @@
+version: "3.7"
+
+services:
+  database:
+    image: mysql:8.0
+    platform: linux/amd64
+    command:
+      - "--default-authentication-plugin=mysql_native_password"
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=codetest
+      - MYSQL_USER=codetest
+      - MYSQL_PASSWORD=swordfish
+    ports:
+      - "3306:3306"
+    restart: always
+
+  example-c:
+    image: example-c
+    build: images/example-c
+    command: ["./example"]
+    volumes:
+      - ./data:/data
+
+  example-node:
+    image: example-node
+    build: images/example-node
+    command: ["./example.js"]
+    volumes:
+      - ./data:/data
+
+  example-python:
+    image: example-python
+    build: images/example-python
+    command: ["./example.py"]
+    volumes:
+      - ./data:/data
+
+  example-r:
+    image: example-r
+    build: images/example-r
+    command: ["./example.R"]
+    volumes:
+      - ./data:/data
+
+  example-ruby:
+    image: example-ruby
+    build: images/example-ruby
+    command: ["./example.rb"]
+    volumes:
+      - ./data:/data
+
+  example-swift:
+    image: example-swift
+    platform: linux/amd64
+    build: images/example-swift
+    command: ["swift", "run"]
+    volumes:
+      - ./data:/data
