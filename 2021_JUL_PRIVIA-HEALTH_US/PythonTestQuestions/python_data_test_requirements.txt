@@ -1,0 +1,30 @@
+# Instructions
+In this directory you will find an Excel spreadsheet titled "Privia Family Medicine 113018.xlsx" containing demographics,
+quarter and risk data. We need this data to be manipulated and stored in our PersonDatabase for analysis.
+
+Please include solutions to the questions below using Python 3.6 or higher.
+Please include any required modules in a "requirements.txt" file in this directory.
+Please provide adequate test coverage for you solutions.
+
+# Questions
+1. Import the 'Demographics' data section to a table in the database. This ETL will need to process files of the
+same type delivered later on with different file dates and from different groups.
+    a. Include all fields under 'Demographics'
+    b. Define the sql schema as necessary. Fields should not include spaces or special characters.
+    c. Include fields in the data table that indicate the date of the file and the provider group located in the filename.
+        In this case "Privia Family Medicine" 11/30/2018. Assume the length of the group name will change and the date
+        will always be formatted at the end of the file as MMDDYY
+    d. Include only the first initial of the Middle Name when applicable.
+    e. Convert the Sex value to M or F: M for 0 and F for 1
+
+
+2. Transform and import the 'Quarters' and 'Risk' data into a separate table.
+    a. Unpivot the data so that the data table includes
+        i. ID
+        ii. Quarter
+        iii. Attributed flag
+        iv. Risk Score
+        v. File date
+     b. Only include records in which the patients risk has increased.
+3. Include Unit Tests 
+4. Provide all necessary information for the team to get this up and running.
