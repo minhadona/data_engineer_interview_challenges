@@ -2,7 +2,7 @@
 - Fork the repository      
 - Create a branch with whatever name you want inside the forked repository in your github account (YOU DONT HAVE PERMISSION TO COMMIT INTO MINE, MAKE SURE YOU'RE DOING THE RIGHT PROCESS TO NOT LOSE YOUR COMMIT)    
 - Create a folder containing the challenge date if you know it, or, if you couldn't find the original date, use the date you FOUND the challenge + the company's name or a pseudonym.    
-Example: **2022_MAR-ICOULD_UK** (for a challenge from iFood, but you didn't find it publicly, you only know the challenge because you've been through a selective process with them, so for your protection, you may use iCould as a pseudonym - in this example, the selection process took place in United Kingdom - this is actually more important than the company itself)     
+Example: **2022_MAR_COULD_UK** (for a challenge from iFood, but you didn't find it publicly, you only know the challenge because you've been through a selective process with them, so for your protection, you may use iCould as a pseudonym - in this example, the selection process took place in United Kingdom - the place is actually more important than the company itself)     
 Example: **2022_APR_ACCENTURE_BR** (for a challenge from Accenture that was public in their repository at that moment -> don't forget, you'll have to publish the link where you found the challenge too, even if it's not online anymore - in this example, the selection process was aimed for Brazilian candidates, thus the posfix _BR)
 
 
@@ -10,8 +10,11 @@ Example: **2022_APR_ACCENTURE_BR** (for a challenge from Accenture that was publ
 - *First line* must be the source of the challenge.   
 Example: **Source: private participation**     
 (for a challenge that was not public)    
-Example: **Source: Github's link of the Challenge**       
-(for a challenge that was in Github when you found)
+Example: **Source: https://github or any link containing the public challenge at the time you found**       
+(for a challenge that was in Github when you found)    
+   
+If you found the company's website, feel free to put it here.
+
 - *Second line* must be the country where you were applying TO 
 Example: **Country: Brazil** (if the challenge was about a selection ocurring in Brazil, please write the whole country name here! DON'T USE THE COUNTRY'S NAME ABBREVIATION IN THIS DOCUMENT!)
 - Then, `paste all the challenge details and statements, rules etc from the original announcement` including data attachments (csvs, etc) everything that was available on original challenge
